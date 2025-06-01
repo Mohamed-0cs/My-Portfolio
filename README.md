@@ -18,7 +18,6 @@ The layout is fully responsive and adapts seamlessly to:
 
 ## 📸 Screenshots
 ![Desktop Version](./Screenshots/desktop%20pic.png)
-![Mobile Version](./Screenshots/mobile%20pic.png)
 
 ## ✨ Features
 - Hero section with CTA
