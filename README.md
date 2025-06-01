@@ -26,7 +26,7 @@ The layout is fully responsive and adapts seamlessly to:
 - Mobile-first responsive design
 
 ## 📁 Folder Structure
-
+---
 Solar-Landing-Page-Responsive-Design-/
 ├── index.html
 ├── css/
@@ -43,7 +43,7 @@ Solar-Landing-Page-Responsive-Design-/
 
 ## 🧑‍💻 Author
 Mohamed Masoud Raafat  
-[GitHub Profile]([https://github.com/yourusername](https://github.com/Mohamed-0cs))
+[GitHub Profile](https://github.com/yourusername](https://github.com/Mohamed-0cs)
 
 ---
 
