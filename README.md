@@ -17,8 +17,8 @@ The layout is fully responsive and adapts seamlessly to:
 - ✅ Mobile screens
 
 ## 📸 Screenshots
-![Desktop Version](./Screenshots/desktop pic.png)
-![Mobile Version](./Screenshots/mobile pic.png)
+![Desktop Version](./Screenshots/desktop%20pic.png)
+![Mobile Version](./Screenshots/mobile%20pic.png)
 
 ## ✨ Features
 - Hero section with CTA
@@ -27,7 +27,7 @@ The layout is fully responsive and adapts seamlessly to:
 
 ## 📁 Folder Structure
 ```
-Solar-Landing-Page-Responsive-Design-/
+My-Portfolio/
 ├── index.html
 ├── css/
 │   └── style.css
