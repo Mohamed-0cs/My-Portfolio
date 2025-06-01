@@ -18,7 +18,7 @@ The layout is fully responsive and adapts seamlessly to:
 
 ## 📸 Screenshots
 ![Desktop Version](./Screenshots/desktop.png)
-![Mobile Version](./screenshots/mobile.png)
+![Mobile Version](./Screenshots/mobile.png)
 
 ## ✨ Features
 - Hero section with CTA
@@ -39,6 +39,7 @@ Solar-Landing-Page-Responsive-Design-/
 │   ├── desktop.png
 │   └── mobile.png
 
+---
 
 ## 🧑‍💻 Author
 Mohamed Masoud Raafat  
