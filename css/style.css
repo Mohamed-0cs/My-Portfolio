@@ -398,47 +398,141 @@ section .title::after{
     width: 100%;
 }
 
+/* experience section styling */
+.experience{
+    color: #fff;
+    background: #111;
+}
+.experience .title::before{
+    background: #fff;
+}
+.experience .title::after{
+    background: #111;
+    content: "what i've done";
+}
+.experience .experience-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.experience .exp-card{
+    width: 100%;
+    background: #222;
+    border-left: 4px solid red;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.experience .exp-card:hover{
+    background: #2a2a2a;
+    transform: translateX(10px);
+}
+.experience .exp-card .exp-header{
+    margin-bottom: 20px;
+}
+.experience .exp-card .exp-header h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: red;
+}
+.experience .exp-card .exp-header .company{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.experience .exp-card .exp-header .dates{
+    display: block;
+    font-size: 14px;
+    color: #aaa;
+}
+.experience .exp-card .exp-body p{
+    margin: 15px 0 10px 0;
+    font-size: 16px;
+}
+.experience .exp-card .exp-body ul{
+    margin: 10px 0 15px 20px;
+}
+.experience .exp-card .exp-body ul li{
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+/* projects tech stack styling */
+.projects .card .box .tech-stack{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+.projects .card .box .tech-tag{
+    display: inline-block;
+    background: rgba(255, 0, 0, 0.2);
+    color: red;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid red;
+    transition: all 0.3s ease;
+}
+.projects .card:hover .tech-tag{
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-color: #fff;
+}
+
 
 /* projects section styling */
 .projects .title::after{
-    content: "what do I do";
+    content: "my works";
 }
 .projects .carousel .card{
     background: #222;
     border-radius: 6px;
-    padding: 25px 35px;
-    text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 .projects .carousel .card:hover{
-    background: red;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(255, 0, 0, 0.2);
 }
 .projects .carousel .card .box{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     transition: all 0.3s ease;
+    padding: 0;
 }
 .projects .carousel .card:hover .box{
-    transform: scale(1.05);
+    transform: none;
 }
 .projects .carousel .card .text{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 0;
+    padding: 15px 20px 0 20px;
+    color: #fff;
+}
+.projects .carousel .card p{
+    font-size: 14px;
+    padding: 0 20px;
+    color: #ddd;
+    line-height: 1.5;
+    margin: 10px 0;
 }
 .projects .carousel .card img{
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 100%;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid red;
+    border-radius: 0;
+    border: none;
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover img{
-    border-color: #fff;
+    border-color: transparent;
 }
 .owl-dots{
     text-align: center;
